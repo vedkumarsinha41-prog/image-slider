@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slider</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="min-h-screen flex justify-center items-center bg-blue-300">
+  <div class="relative w-[560px]">
+    <i class="fa-solid fa-arrow-left absolute left-3 mt-38... top-1/2 -translate-1/2 text-white text-4xl cursor-pointer" onclick="prevSlide()"></i>
+<img id="slider" class="w-full h-[350px] object-cover rounded-2xl shadow-lg shadow-black" src="a1.jfif" alt="">
+<i class="fa-solid fa-arrow-right absolute right-3  pl-5 top-1/2 -translate-y-1/2 text-white text-4xl  cursor-pointer"  onclick="nextSlide()"></i>
+  </div>
+  <script src="action.js"></script>
+</body>
+</html>
